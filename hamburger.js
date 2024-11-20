@@ -1,0 +1,12 @@
+document.getElementById("menu-activator").onclick=()=>{
+    document.getElementById("menu").style.left="0";
+    document.getElementById("menu").style.width="330px";
+}
+document.getElementById("menu-deactivator").onclick=()=>{
+    document.getElementById("menu").style.left="-100px";
+    document.getElementById("menu").style.width="0px";
+}
+window.onscroll=()=>{
+    document.getElementById("menu").style.left="-100px";
+    document.getElementById("menu").style.width="0px";
+}
