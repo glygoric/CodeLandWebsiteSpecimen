@@ -9,82 +9,72 @@
     <title>Prijava - CodeLand</title>
 </head>
 <body>
-    <div class="nav">
-        <i class="fa-solid fa-bars" style="color: #ffffff;" id="menu-activator"></i>
-        <img src="logonwrapper/logo.png">
-    </div>
-    <div class="hamburger-menu" id="menu">
-        <i class="fa-solid fa-xmark" style="color: #ffffff;" id="menu-deactivator"></i>
-        <ul>
-            <a href=""><li>CodeLand</li></a>
-            <a href=""><li>Kursevi</li></a>
-            <a href=""><li>Partneri</li></a>
-            <a href="prijava.html"><li>Prijava</li></a>
-            <a href="index.html#anchor-id-team"><li>Tim</li></a>
-        </ul>
-        <img src="logonwrapper/logo-crop.png">
-    </div>
+    <a href="index.html"><i class="fa-solid fa-circle-arrow-left" id="go-back"></i></a>
+    
+    <div class="whole-container">
 
-    <!--MAIN-->
-    <div class="main-container">
-        <img src="logonwrapper/logo-crop.png">
-        <div class="group">
-            <label>Ime Djeteta</label>
-            <input type="text">
+        <div class="left">
+            <img src="logonwrapper/logo.png">
+            <h2>Dobrodošli u CodeLand!</h2>
         </div>
-        <div class="group">
-            <label>Prezime Djeteta</label>
-            <input type="text">
-        </div>
-        <div class="group">
-            <label>Ime Roditelja / Staratelja</label>
-            <input type="text">
-        </div>
-        <div class="group">
-            <label>Prezime Roditelja / Staratelja</label>
-            <input type="text">
-        </div>
-        <div class="group">
-            <label>E - Mail Roditelja</label>
-            <input type="email">
-        </div>
-        <div class="group">
-            <label>Telefon</label>
-            <input type="number">
-        </div>
-        <div class="group">
-            <label>Starosna Dob Djeteta</label>
-            <input type="number">
-        </div>
-        <button>Prijavi</button>
-    </div>
 
-    <footer>
-        <div class="footer-container">
-            <div class="upper">
-                <div class="left">
-                    <img src="logonwrapper/logo.png">
+        <div class="right">
+            <form>
+                <h1>Registrujte se !</h1>
+            <div class="ip-dijete">
+                <input type="text" placeholder="Ime Djeteta">
+                <input type="text" placeholder="Prezime Djeteta">
+            </div>
+            <input type="text" placeholder="Koji Razred Pohađa">
+            <div class="ip-roditelj">
+                <input type="text" placeholder="Ime Roditelja / Staratelja">
+                <input type="text" placeholder="Prezime Roditelja / Staratelja">
+            </div>
+            <input type="text" placeholder="Telefon">
+            <input type="email" placeholder="E - Mail">
+            <div class="course-selection">
+                <h3>Izaberite željeni kurs !</h3>
+                <div class="check-box-container">
+                    <div class="single-course">
+                        <input type="checkbox">
+                        <h4>PreCode</h4>
+                    </div>
+                    <div class="single-course">
+                        <input type="checkbox">
+                        <h4>Scratch</h4>
+                    </div>
+                    <div class="single-course">
+                        <input type="checkbox">
+                        <h4>Micro:Bit</h4>
+                    </div>
+                    <div class="single-course">
+                        <input type="checkbox">
+                        <h4>App Inventor</h4>
+                    </div>
+                    <div class="single-course">
+                        <input type="checkbox">
+                        <h4>Web Programiranje</h4>
+                    </div>
+                    <div class="single-course">
+                        <input type="checkbox">
+                        <h4>Python</h4>
+                    </div>
                 </div>
             </div>
-            <div class="separator-line">
+            <div class="laptop-selection">
+                <h3>Da li dijete želi da donosi svoj laptop na časove ?</h3>
+                <div class="single-selection">
+                    <input type="radio" name="da-ne">
+                    <h4>DA</h4>
+                </div>
+                <div class="single-selection">
+                    <input type="radio" name="da-ne">
+                    <h4>NE</h4>
+                </div>
             </div>
-            <div class="lower">
-                <ul>
-                    <a href=""><li><i class="fa-brands fa-instagram"></i></li></a>
-                    <a href=""><li><i class="fa-brands fa-facebook-f"></i></li></a>
-                    <a href=""><li><i class="fa-brands fa-x-twitter"></i></li></a>
-                    <a href=""><li><i class="fa-brands fa-linkedin-in"></i></li></a>
-                    <a href=""><li><i class="fa-brands fa-tiktok"></i></li></a>
-                    <a href=""><li><i class="fa-brands fa-youtube"></i></li></a>
-                    <a href=""><li><i class="fa-solid fa-envelope"></i></li></a>
-                </ul>
-            </div>
-            <div class="lowest">
-                <h4>Website made by Invenit Solutions&nbsp;<sup><i class="fa-regular fa-registered"></i></sup> | CodeLand, All rights reserved&nbsp;<sup><i class="fa-regular fa-copyright"></i></sup></h4>
-            </div>
+            <button>Prijavi</button>
+            </form>
         </div>
-    </footer>
-
-    <script src="hamburger.js"></script>
+    </div>
 </body>
 </html>
