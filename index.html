@@ -36,6 +36,22 @@
             </div>
         </div>
     </div>
+    <!--POPUP-->
+    <div class="popup-popust" id="popup">
+        <i class="fa-solid fa-x" id="popup-delete"></i>
+        <h2>Pronađite popust za sebe!</h2>
+        <p>Škola programiranja za djecu Code Land pripremila je nekoliko popusta kako bismo olakšali vaš kućni budžet.</p>
+        <ul>
+            <p>1. Dvoje djece iz iste porodice – 10%</p>
+            <p>2. Nosioci “<b>Ponosne kartice</b>” (porodice 3+ djece) – 20%</p>
+            <p>3. Prva generacija upisanih – 10%</p>
+            <p>4. Rane prijave – 10%</p>
+            <p>5. Donosiocu flajera – 10%</p>
+            <p>6. Dovedite novog učenika – 10 %</p>
+        </ul>
+    </div>
+    <!--OVERLAY-->
+    <div class="overlay" id="overlay-div"></div>
 
     <!--NUMBERS-->
     <div class="numbers-container">
@@ -73,7 +89,7 @@
                 <p>Škola programiranja CodeLand, za djecu nudi programe i kurseve prilagođene djeci različitih uzrasta i nivoa znanja. Učimo djecu kako da programiraju kroz zabavne aktivnosti i igre koje će ih motivisati da razvijaju svoje vještine.  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam magni distinctio repellat quisquam molestiae. Inventore amet facilis veniam atque eos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus reiciendis recusandae nobis voluptate reprehenderit molestiae, aliquam assumenda, sunt excepturi tempora quasi nisi sed, nostrum in dolore animi omnis ut fugit.</p>
                 <div class="button-container">
                     <button>Kursevi</button>
-                    <button>Popusti!</button>
+                    <button id="popup-activator">Popusti!</button>
                 </div>
             </div>
         </div>
@@ -147,6 +163,7 @@
     <script src="hamburger.js"></script>
     <script src="counter.js"></script>
     <script src="read.js"></script>
+    <script src="popup.js"></script>
     
 </body>
 </html>
