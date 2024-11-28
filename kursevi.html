@@ -19,12 +19,28 @@
         <ul>
             <a href="index.html"><li>CodeLand</li></a>
             <a href="kursevi.html"><li>Kursevi</li></a>
-            <a href=""><li>Partneri</li></a>
+            <a href="partners.html"><li>Partneri</li></a>
             <a href="prijava.html"><li>Prijava</li></a>
             <a href="index.html#anchor-id-team"><li>Tim</li></a>
         </ul>
         <img src="logonwrapper/logo-crop.png">
     </div>
+    <!--POPUP-->
+    <div class="popup-popust" id="popup">
+        <i class="fa-solid fa-x" id="popup-delete"></i>
+        <h2>Pronađite popust za sebe!</h2>
+        <p>Škola programiranja za djecu Code Land pripremila je nekoliko popusta kako bismo olakšali vaš kućni budžet.</p>
+        <ul>
+            <p>1. Dvoje djece iz iste porodice – 10%</p>
+            <p>2. Nosioci “<b>Ponosne kartice</b>” (porodice 3+ djece) – 20%</p>
+            <p>3. Prva generacija upisanih – 10%</p>
+            <p>4. Rane prijave – 10%</p>
+            <p>5. Donosiocu flajera – 10%</p>
+            <p>6. Dovedite novog učenika – 10 %</p>
+        </ul>
+    </div>
+    <!--OVERLAY-->
+    <div class="overlay" id="overlay-div"></div>
 
     <div class="on-load">
         <div class="wrapper">
@@ -37,7 +53,7 @@
     </div>
 
     <div class="courses-container">
-        <a href=""><div class="course-box">
+        <a href="precode.html"><div class="course-box">
             <div class="left">
                 <img src="courses/precode.png">
             </div>
@@ -48,7 +64,7 @@
             </div>
         </div></a>
 
-        <a href=""><div class="course-box">
+        <a href="scratch.html"><div class="course-box">
             <div class="left">
                 <img src="courses/scratch.png">
             </div>
@@ -59,9 +75,9 @@
             </div>
         </div></a>
 
-        <a href=""><div class="course-box">
+        <a href="microbit.html"><div class="course-box">
             <div class="left">
-                <img src="courses/microbit.png">
+                <img src="courses/microbit-nobg.png">
             </div>
             <div class="right">
                 <h2>Micro:bit</h2>
@@ -70,9 +86,9 @@
             </div>
         </div></a>
 
-        <a href=""><div class="course-box">
+        <a href="appinventor.html"><div class="course-box">
             <div class="left">
-                <img src="courses/appinventor.png">
+                <img src="courses/appinventor-nobg.png">
             </div>
             <div class="right">
                 <h2>App Inventor</h2>
@@ -81,7 +97,7 @@
             </div>
         </div></a>
         
-        <a href=""><div class="course-box">
+        <a href="wp.html"><div class="course-box">
             <div class="left">
                 <img src="courses/hcj.png">
             </div>
@@ -105,7 +121,10 @@
         <div class="interest">
             <h1>Zainteresovani ste? Prijavite dijete odmah!</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, neque. Necessitatibus quae voluptates aspernatur labore adipisci sunt itaque ut, assumenda in porro cum deleniti saepe! Voluptates, modi sit animi in culpa non a tempore vero aliquam, temporibus pariatur voluptatem expedita!</p>
-            <a href="prijava.html"><button>Prijavite se</button></a>
+            <div class="button-container">
+                <a href="prijava.html"><button>Prijavite se</button></a>
+                <button id="popup-activator">Popusti!</button>
+            </div>
         </div>
     </div>
 
@@ -136,6 +155,7 @@
     </footer>
 
     <script src="script/hamburger.js"></script>
+    <script src="script/popup.js"></script>
     
 </body>
 </html>
