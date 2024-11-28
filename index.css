@@ -282,13 +282,16 @@ body{
                 justify-content: center;
                 background-color: white;
                 width: 260px;
+                height: 385px;
                 padding: 10px 20px ;
-                filter: drop-shadow(4px 4px  rgb(223, 221, 221));
+                margin-bottom: 10px;
+                filter: drop-shadow(4px 4px 4PX rgb(223, 221, 221));
                 border-bottom: 4px solid rgb(223, 221, 221);
                 transition: .3s;
                 img{
                     width: 220px;
                     border-radius: 6px;
+                    height: 235px;
                 }
                 h3,h4{
                     text-align: center;
