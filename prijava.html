@@ -22,41 +22,41 @@
             <form>
                 <h1>Registrujte se !</h1>
             <div class="ip-dijete">
-                <input type="text" placeholder="Ime Djeteta">
-                <input type="text" placeholder="Prezime Djeteta">
+                <input type="text" placeholder="Ime Djeteta" required>
+                <input type="text" placeholder="Prezime Djeteta" required>
             </div>
             <input type="text" placeholder="Koji Razred Pohađa">
             <div class="ip-roditelj">
-                <input type="text" placeholder="Ime Roditelja / Staratelja">
-                <input type="text" placeholder="Prezime Roditelja / Staratelja">
+                <input type="text" placeholder="Ime Roditelja / Staratelja" required>
+                <input type="text" placeholder="Prezime Roditelja / Staratelja" required>
             </div>
-            <input type="text" placeholder="Telefon">
-            <input type="email" placeholder="E - Mail">
+            <input type="text" placeholder="Telefon" required>
+            <input type="email" placeholder="E - Mail" required>
             <div class="course-selection">
                 <h3>Izaberite željeni kurs !</h3>
                 <div class="check-box-container">
                     <div class="single-course">
-                        <input type="checkbox">
+                        <input type="checkbox" class="course-checkbox" name="course">
                         <h4>PreCode</h4>
                     </div>
                     <div class="single-course">
-                        <input type="checkbox">
+                        <input type="checkbox" class="course-checkbox" name="course">
                         <h4>Scratch</h4>
                     </div>
                     <div class="single-course">
-                        <input type="checkbox">
+                        <input type="checkbox" class="course-checkbox" name="course">
                         <h4>Micro:Bit</h4>
                     </div>
                     <div class="single-course">
-                        <input type="checkbox">
+                        <input type="checkbox" class="course-checkbox" name="course">
                         <h4>App Inventor</h4>
                     </div>
                     <div class="single-course">
-                        <input type="checkbox">
+                        <input type="checkbox" class="course-checkbox" name="course">
                         <h4>Web Programiranje</h4>
                     </div>
                     <div class="single-course">
-                        <input type="checkbox">
+                        <input type="checkbox" class="course-checkbox" name="course">
                         <h4>Python</h4>
                     </div>
                 </div>
@@ -64,23 +64,24 @@
             <div class="laptop-selection">
                 <h3>Da li dijete želi da donosi svoj laptop na časove ?</h3>
                 <div class="single-selection">
-                    <input type="radio" name="da-ne">
+                    <input type="radio" name="da-ne" required>
                     <h4>DA</h4>
                 </div>
                 <div class="single-selection">
-                    <input type="radio" name="da-ne">
+                    <input type="radio" name="da-ne" required>
                     <h4>NE</h4>
                 </div>
             </div>
             <div class="privacy-policy-tou">
-                <input type="checkbox">
+                <input type="checkbox" required title="Prihvatate Uslove korišćenja i Politiku privatnosti.">
                 <h4>Prihvatate Uslove korišćenja i Politiku privatnosti.</h4>
             </div>
-            <button>Prijavi</button>
+            <button id="prijavi-dugme">Prijavi</button>
             </form>
         </div>
     </div>
 
     <script src="script/linkcontrol.js"></script>
+    <script src="script/checkcontrol.js"></script>
 </body>
 </html>

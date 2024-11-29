@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="partnerprijava.css">
+    <script src="https://kit.fontawesome.com/aeea2ec40a.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="logonwrapper/logo-crop.png" type="image/x-icon">
+    <title>Postani Partner - CodeLand</title>
+</head>
+<body>
+    <a href=""><i class="fa-solid fa-circle-arrow-left" id="go-back"></i></a>
+    
+    <div class="whole-container">
+
+        <div class="left">
+            <img src="logonwrapper/logo.png">
+            <h2>Postani partner!</h2>
+        </div>
+
+        <div class="right">
+            <form>
+                <h1>Započnite saradnju !</h1>
+                <input type="text" placeholder="Ime Firme" required>
+                <input type="text" placeholder="Adresa Firme" required>
+                <input type="text" placeholder="Kontakt Osoba ( Ime i Prezime)" required> 
+                <input type="text" placeholder="Pozicija Kontakt Osobe" required>
+                <input type="email" placeholder="E - Mail" required>
+                <input type="text" placeholder="Telefon" required>
+                <input type="text" placeholder="Web-Sajt Firme ( Opcionalno )">
+                <div class="cooperation-category">
+                    <h3>Kategorija saradnje:</h3>
+                    <div class="single-category">
+                        <input type="radio" name="cooperation-category" required>
+                        <h4>Investitor</h4>
+                    </div>
+                    <div class="single-category">
+                        <input type="radio" name="cooperation-category" required>
+                        <h4>Sponzor</h4>
+                    </div>
+                    <div class="single-category">
+                        <input type="radio" name="cooperation-category" id="other-radio" required>
+                        <h4>Drugo</h4>
+                    </div>
+                    <input type="text" id="other-input-text" placeholder="Navedite kategoriju saradnje" required title="Navedite kategoriju saradnje.">
+                </div>
+            <div class="privacy-policy-tou">
+                <input type="checkbox" required title="Prihvatate Uslove korišćenja i Politiku privatnosti.">
+                <h4>Prihvatate Uslove korišćenja i Politiku privatnosti.</h4>
+            </div>
+            <button>Prijavi</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script/linkcontrol.js"></script>
+    <script src="script/othercontrol.js"></script>
+</body>
+</html>

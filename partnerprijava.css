@@ -69,58 +69,26 @@ body{
                     width: 100%;
                     margin: 10px 0;
                 }
-                .ip-dijete,.ip-roditelj{
-                    display: flex;
-                    gap: 10px;
-                }
-                .course-selection{
-                    margin-top: 20px;
-                    display: flex;
-                    align-items: flex-start;
-                    justify-content: center;
-                    flex-direction: column;
-                    margin-bottom: 20px;
-                    h3{
-                        width: 100%;
-                        text-align: center;
-                    }
-                    .check-box-container{
-                        display: flex;
-                        flex-direction: column;
-                        justify-content: flex-start;
-                        align-items: flex-start;
-                        .single-course{
-                            margin-left: 20px;
-                            input{
-                                width: 20px;
-                                height: 20px;
-                                margin-right: 10px; 
-                            }
-                            h4{
-                                color: rgb(34, 34, 34);
-                            }
-                            display: flex;
-                            align-items: center;
-                            justify-content: center;
-                        }
-                    }
-                }
-                .laptop-selection{
+                .cooperation-category{
+                    margin: 10px 0;
                     display: flex;
                     flex-direction: column;
                     align-items: flex-start;
                     justify-content: flex-start;
-                    .single-selection{
+                    .single-category{
                         color: rgb(34, 34, 34);
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
                         input{
                             width: 20px;
                             height: 20px;
-                            margin-right: 5px;
+                            margin-right: 10px; 
+                            margin-left: 10px;
                         }
-                        margin-left: 20px;
-                        display: flex;
-                        align-items: center;
-                        justify-content:center;
+                    }
+                    #other-input-text{
+                        display: none;
                     }
                 }
                 .privacy-policy-tou{
