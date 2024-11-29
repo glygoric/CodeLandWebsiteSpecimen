@@ -282,7 +282,7 @@ body{
                 justify-content: center;
                 background-color: white;
                 width: 260px;
-                height: 385px;
+                min-height: 385px;
                 padding: 10px 20px ;
                 margin-bottom: 10px;
                 filter: drop-shadow(4px 4px 4PX rgb(223, 221, 221));
