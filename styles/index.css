@@ -144,7 +144,7 @@ body{
     .on-load-container{
         width: 100vw;
         height: 100vh;
-        background-image: url('logonwrapper/main-wrapper-background.jpg');
+        background-image: url('../img/logonwrapper/main-wrapper-background.jpg');
         background-position: center;
         background-size: cover;
         filter: drop-shadow(3px 3px 3px grey);
