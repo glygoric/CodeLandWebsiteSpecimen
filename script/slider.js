@@ -10,9 +10,9 @@ document.addEventListener("DOMContentLoaded", function () {
     let currentIndex = 1;
 
     function updateSlider() {
-        centerImg.src = `partners/${currentIndex}.webp`;
-        leftImg.src = `partners/${(currentIndex - 1 < 1 ? 8 : currentIndex - 1)}.webp`;
-        rightImg.src = `partners/${(currentIndex + 1 > 8 ? 1 : currentIndex + 1)}.webp`;
+        centerImg.src = `img/partners/${currentIndex}.webp`;
+        leftImg.src = `img/partners/${(currentIndex - 1 < 1 ? 8 : currentIndex - 1)}.webp`;
+        rightImg.src = `img/partners/${(currentIndex + 1 > 8 ? 1 : currentIndex + 1)}.webp`;
 
         switch(currentIndex){
             case 1: activePartnerText.innerHTML="Delta Planet"; break;

@@ -87,7 +87,7 @@ body{
         width: 100%;
         height: 70vh;
         margin-top: 100px;
-        background-image: url('logonwrapper/course-wrapper-background.jpg');
+        background-image: url('img/logonwrapper/course-wrapper-background.jpg');
         background-position: center;
         background-size: cover;
         filter: drop-shadow(3px 3px 3px grey);
