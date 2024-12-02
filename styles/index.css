@@ -270,7 +270,7 @@ body{
                 min-height: 385px;
                 padding: 10px 20px ;
                 margin-bottom: 10px;
-                filter: drop-shadow(4px 4px 4PX rgb(223, 221, 221));
+                filter: drop-shadow(4px 4px 4px rgb(223, 221, 221));
                 border-bottom: 4px solid rgb(223, 221, 221);
                 transition: .3s;
                 img{
@@ -331,6 +331,91 @@ body{
                 cursor: pointer;
                 opacity: 0.9;
             }
+        }
+    }
+    .blog-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 40px 80px 80px;
+        h1{
+            margin-bottom: 40px;
+        }
+        .blog-card-container{
+            padding: 0 120px 40px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            justify-content: center;
+            gap: 50px;
+            .card{
+                cursor: pointer;
+                width: 260px;
+                border-radius: 12px;
+                filter: drop-shadow(4px 4px 4PX rgb(223, 221, 221));
+                background-color: white;
+                min-height: 450px;
+                .top{
+                    overflow: hidden;
+                    img{
+                        height: 260px;
+                    }
+                }
+                .bottom{
+                    padding: 20px 15px 20px;
+                    h4{
+                    color: var(--impact);
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-start;
+                        i{
+                            margin-right: 5px;
+                        }
+                    }
+                    h3{
+                        margin: 5px 0;
+                    }
+                    p{
+                        color: #4a4a4a;
+                        margin: 5px 0;
+                        hyphens: auto;
+                        word-wrap:break-word;
+                        text-align: justify;
+                    }
+                    a{
+                        text-decoration: none;
+                        display: flex;
+                        align-items: center;
+                        justify-content: flex-start;
+                        i{
+                        color: var(--impact);
+                        transition: .5s;
+                        }
+                    }
+                    a:hover{
+                        i{
+                        transform: translateX(5px);
+                        }
+                    }
+                }   
+            }
+        }
+        button{
+            background-color: var(--impact);
+            outline: none;
+            border: none;
+            width: 150px;
+            height: 40px;
+            color: white;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: .5s;
+        }
+        button:hover{
+            background-color: var(--bg);
+            color: var(--impact);
+            border: 1px solid var(--impact);
         }
     }
     footer{
