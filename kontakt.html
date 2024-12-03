@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/aeea2ec40a.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="styles/partners.css">
+    <link rel="stylesheet" href="styles/kontakt.css">
     <link rel="stylesheet" href="styles/universal.css">
     <link rel="shortcut icon" href="img/logonwrapper/logo-crop.png" type="image/x-icon">
-    <title>Partneri</title>
+    <title>Code Land - Kontakt</title>
 </head>
 <body>
     <!--FLOATING ELEMENTS NAV HAMBURGER MENU-->
@@ -22,67 +22,47 @@
             <a href="kursevi.html"><li>Kursevi</li></a>
             <a href="partners.html"><li>Partneri</li></a>
             <a href="prijava.html"><li>Prijava</li></a>
-            <a href="index.html#anchor-id-team"><li>Tim</li></a>
-            <a href="index.html#anchor-id-blog"><li>Blog</li></a>
+            <a href="#anchor-id-team"><li>Tim</li></a>
+            <a href="#anchor-id-blog"><li>Blog</li></a>
             <a href="kontakt.html"><li>Kontakt</li></a>
         </ul>
         <img src="img/logonwrapper/logo-crop.png">
     </div>
 
-    <div class="on-load">
+    <!--ONLOAD-->
+    <div class="on-load-container">
         <div class="wrapper">
             <div class="container">
-                <h1>Partneri</h1>
-                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo.</h3>
+                <h1>Obratite nam se!</h1>
+                
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae nostrum porro, earum officia, reiciendis ratione laborum aut, quod sit quos ab facilis delectus perferendis. Esse totam a laborum cupiditate facere eveniet aut aliquid maxime. Maiores ab, quam voluptatibus earum dignissimos necessitatibus deserunt nihil impedit error, tempore, architecto rem amet cumque.</p>
+                <a href="#form-anchor"><button>Kontaktiraj Nas</button></a>
             </div>
         </div>
     </div>
 
-    <div class="slider-container">
-        <h1>Naši Partneri</h1>
-        <div class="slider">
-            <div class="top">
-                <div class="left slide-left">
-                    <div class="wrapper">
-                        <img src="img/partners/8.webp" id="left-img">
-                    </div>
-                </div>
-                <div class="left-control-arrow" id="left-arrow">
-                    <i class="fa-solid fa-chevron-left"></i>
-                </div>
-                <div class="center-active">
-                    <img src="img/partners/1.webp" id="center-img">
-                </div>
-                <div class="right-control-arrow" id="right-arrow">
-                    <i class="fa-solid fa-chevron-right"></i>
-                </div>
-                <div class="right slide-right">
-                    <div class="wrapper">
-                        <img src="img/partners/2.webp" id="right-img">
-                    </div>
-                </div>
-            </div>
-            <div class="bottom">
-                <h3 id="active-partner-text">Delta Planet</h3>
-                <div class="dot-container">
-                    <div class="dot"></div>
-                    <div class="dot"></div>
-                    <div class="dot"></div>
-                    <div class="dot"></div>
-                    <div class="dot"></div>
-                    <div class="dot"></div>
-                    <div class="dot"></div>
-                    <div class="dot"></div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="become-partner">
+    <div class="mail-us-container">
         <div class="container">
-            <h1>Postanite partner!</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis, nisi. Aperiam quos quidem odio velit qui corporis est? Vitae corrupti animi incidunt maxime suscipit. Iusto perspiciatis quibusdam aut vero provident consequuntur asperiores, nihil mollitia a libero voluptas tempora fugit blanditiis voluptate. Illum voluptate unde dolore iste reiciendis nobis nesciunt inventore consectetur molestiae distinctio. Beatae earum consequatur expedita? Facilis, iusto voluptas.</p>
-            <a href="partnerprijava.html"><button>Započni Saradnju</button></a>
+            <div class="left">
+                
+            </div>
+            <div class="right">
+                <form id="form-anchor">
+                    <h1>Kako Vam možemo pomoći ?</h1>
+                    <div class="ime-prezime-container">
+                        <input type="text" placeholder="Ime" required>
+                        <input type="text" placeholder="Prezime" required>
+                    </div>
+                    <input type="email" placeholder="E-Mail" required>
+                    <input type="text" placeholder="Telefon" required> 
+                    <textarea required placeholder="Vaša Poruka"></textarea>
+                    <div class="pp">
+                        <input type="checkbox" required>
+                        <h4>Prihvatate <a href="">Uslove Korišćenja</a> i <a href="">Politku privatnosti</a>.</h4>
+                    </div>
+                    <button>Pošalji</button>
+                </form>
+            </div>
         </div>
     </div>
 
@@ -114,7 +94,6 @@
     </footer>
 
     <script src="script/hamburger.js"></script>
-    <script src="script/slider.js"></script>
 
 </body>
 </html>

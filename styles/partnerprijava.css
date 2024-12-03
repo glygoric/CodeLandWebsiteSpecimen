@@ -81,6 +81,9 @@ body{
                     display: flex;
                     align-items: center;
                     justify-content: center;
+                    a{
+                        text-decoration: none;
+                    }
                     input{
                         width: 20px;
                         height: 20px;
