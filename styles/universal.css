@@ -24,4 +24,8 @@
     i{
         overflow: hidden;
     }
+    img{
+        max-width: 100%;
+    }
+    flex-wrap: wrap;
 }
