@@ -128,7 +128,7 @@ body{
     /*MAIN*/
     .on-load{
         width: 100%;
-        height: 70vh;
+        height: 100vh;
         margin-top: 100px;
         background-image: url('../img/logonwrapper/course-wrapper-background.jpg');
         background-position: center;
